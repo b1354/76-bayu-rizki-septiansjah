@@ -8,6 +8,6 @@ __Deskripsi:__\
 Sebuah website yang digunakan untuk memanajemen tugas kelompok.
 dengan fitur grup diskusi, dan storage untuk menyimpan file file tugas.
 
-<p style="text-align:center">
+<p align="center">
   <i>"project ini dibuat untuk memenuhi tugas kelas fullstack JDA"<i>
 </p>
