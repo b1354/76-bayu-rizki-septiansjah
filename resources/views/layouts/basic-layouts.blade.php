@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <title>@yield("title")</title>
-
 </head>
 <body class="text-slate-800 bg-slate-100">
     @yield("content")
