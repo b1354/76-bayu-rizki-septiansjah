@@ -2,7 +2,7 @@
     'opened' => true
 ])
 
-<div class="sm:relative fixed w-80 h-screen border-r border-gray-300 bg-white 
+<div class="sm:relative fixed w-80 h-screen border-r border-gray-300 bg-white box-border
             {{ ($opened == true) ? '' : 'sm:-ml-80 -ml-80 '}} duration-500" id="sidebar">
     <span class="absolute rounded-tr-full rounded-br-full border border-l-0 border-gray-300 bg-white 
                 p-2 text-xl font-bold cursor-pointer -right-9 top-4 hover:bg-slate-200
@@ -39,6 +39,5 @@
 
         btnIcon.classList.toggle('rotate-180')
         sidebar.classList.toggle('-ml-80')
-        sidebar.classList.toggle('sm:-ml-80')
     })
 </script>

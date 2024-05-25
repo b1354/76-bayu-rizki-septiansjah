@@ -10,7 +10,7 @@
 
     <title>@yield("title")</title>
 </head>
-<body class="text-slate-800 bg-slate-100">
+<body class="text-slate-800 bg-slate-100 box-border">
     @yield("content")
 </body>
 </html>

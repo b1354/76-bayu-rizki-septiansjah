@@ -9,8 +9,11 @@
       <x-sidebar-menu content="Pengaturan" routeTarget="userSettings" menuIcon="fa-gear"/>
     </x-sidebar>
 
-    <div class="container p-5 ">
-        @yield('menu-content')
+    <div class="w-full">
+      <x-navbar />
+      <div class="p-5 md:px-16">
+          @yield('menu-content')
+      </div>
     </div>
   </div>
 @endsection
