@@ -2,10 +2,10 @@
     'opened' => true
 ])
 
-<div class="sm:relative fixed w-80 h-screen border-r border-gray-300 bg-white box-border
-            {{ ($opened == true) ? '' : 'sm:-ml-80 -ml-80 '}} duration-500" id="sidebar">
+<div class="sm:sticky fixed top-0 w-80 h-screen border-r border-gray-300 bg-white box-border
+            {{ ($opened == true) ? '' : 'sm:-ml-80 -ml-80 '}} duration-500 z-20" id="sidebar">
     <span class="absolute rounded-tr-full rounded-br-full border border-l-0 border-gray-300 bg-white 
-                p-2 text-xl font-bold cursor-pointer -right-9 top-4 hover:bg-slate-200
+                p-2 text-xl font-bold cursor-pointer -right-9 top-10 hover:bg-slate-200
                 transition delay-200 block" 
         id="sidebarToggle">
         <i id="sidebarToggleText" class="{{ ($opened) ? 'rotate-180': ''}} fa-solid fa-angles-left delay-50 duration-500 ease-out"></i>

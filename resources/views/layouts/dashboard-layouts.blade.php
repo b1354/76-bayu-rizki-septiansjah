@@ -11,7 +11,7 @@
 
     <div class="w-full">
       <x-navbar />
-      <div class="p-5 md:px-16">
+      <div class="pt-10 p-5 md:px-16 min-h-screen">
           @yield('menu-content')
       </div>
     </div>
